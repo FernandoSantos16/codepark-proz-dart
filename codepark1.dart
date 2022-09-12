@@ -1,6 +1,9 @@
 // Fernando Santos - Curso Dart
 // Atividade para classificar dois objetos materiais e dois abstratos.
 
+void main(List<String> arguments){
+  print("Os dois primeiros são os materiais e os dois últimos são os abstratos.");
+}
 class Escola {
   String nome;
   String idade;
