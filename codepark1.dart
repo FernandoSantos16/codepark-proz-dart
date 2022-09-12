@@ -54,9 +54,7 @@ class restaurante {
   int servePessoas;
 
   restaurante(
-      {required this.alimento,
-      required this.valor,
-      required this.servePessoas});
+      {required this.alimento, required this.valor, required this.servePessoas});
   void esquentar() {}
   void misturar() {}
   void trocar() {}
@@ -68,9 +66,7 @@ class condominio {
   final int interfone;
 
   condominio(
-      {required this.morador,
-      required this.interfone,
-      required this.apartamento});
+      {required this.morador, required this.interfone, required this.apartamento});
   void intefornar() {}
   void advertir() {}
   void multar() {}
